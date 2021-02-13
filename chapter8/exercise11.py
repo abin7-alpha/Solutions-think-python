@@ -29,10 +29,10 @@ def any_lowercase5(s):
             return False
     return True
 
-print(any_lowercase5("MAMa"))
-print(any_lowercase4("MAMA"))
+# print(any_lowercase5("MAMa"))
+# print(any_lowercase4("MAMA"))
 print(any_lowercase3("MAMa"))
-print(any_lowercase2("MAam"))
-print(any_lowercase1("MAMA"))
+# print(any_lowercase2("MAam"))
+# print(any_lowercase1("MAMA"))
 
 
