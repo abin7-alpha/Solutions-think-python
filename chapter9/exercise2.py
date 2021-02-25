@@ -1,7 +1,7 @@
 def calc_percentage(words):
     a = has_no_e(words) / 227617
     percentage = a * 100
-    print(percentage)
+    return percentage
 
 def has_no_e(words):
     count = 0
@@ -10,4 +10,4 @@ def has_no_e(words):
             count = count + 1
     return count   
 
-calc_percentage(open("words.txt"))
+print(calc_percentage(open("words.txt")))
